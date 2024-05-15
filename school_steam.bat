@@ -1,6 +1,6 @@
 @echo off
 mkdir games_storage
-move %cd%download.zip %cd%games_storage
+move %cd%\download.zip %cd%\games_storage
 echo @echo off >> launcher.bat
 echo echo Welcome to schoolsteam Launcher >> launcher.bat
 echo echo Setting program paths... >> launcher.bat
