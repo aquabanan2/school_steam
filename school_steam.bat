@@ -37,7 +37,7 @@ echo ) >> launcher.bat
 echo echo Closing launcher... >> launcher.bat
 echo pause >> launcher.bat
 cd %cd%games_storage
-tar -gz download.zip
+tar -xf download.zip
 del download.zip
 echo sucess
 curl parrot.live
